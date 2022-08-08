@@ -1,0 +1,85 @@
+body
+{
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+input[type='text'],input[type='password']
+{
+    padding: 3px;
+    width: 80%;
+    outline: none;
+    background: transparent;
+    height: 9%;
+    border: none;
+    font-size: large;
+    color: teal;
+    border-bottom: 1px solid teal;
+}
+#box
+{
+    position: fixed;
+    top: 2%;
+    left: 33%;
+    padding-top: 60px;
+    width: 35%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.884);
+    box-shadow: 2px 2px 35px black;
+    text-align: center;
+    border-radius: 10px;
+
+
+}
+input::placeholder
+{
+    color: #999;
+    font-size: large;
+}
+#tit
+{
+    position: fixed;
+    top: 10%;
+    left: 33%;
+    width: 34%;
+    height: 10%;
+    padding: 5px;
+    box-shadow: 2px 4px 5px black;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: teal;
+    
+}
+input[type='submit']
+{
+    position: relative;
+    top: 0%;
+    border-radius: 10px;
+    font-size: x-large;
+    background-color: teal;
+    color: white;
+    width: 50%;
+    height: 10%;
+    border: none;
+}
+#inner
+{
+    position: relative;
+    color: #999;
+    text-align: left;
+    width: 20%;
+    left: 8%;
+    top: -55px;
+    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+input:focus ~ #inner
+{
+    color: teal;
+    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+a{
+    text-decoration: none;
+    color: teal;
+}

@@ -1,0 +1,338 @@
+*
+{
+    font-family: 'Segoe UI';
+    font-weight: 600;
+}
+
+#container
+{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 100%;
+    height: 40%;
+    color: rgb(16, 65, 80);
+    transition: .5s ease-in-out;
+}
+input
+{
+    border: none;
+    background-color: transparent;
+    font-size: 90%;
+    width: 80%;
+    overflow-wrap: break-word;
+    text-align: left;
+    color: black;
+    padding: 5px;
+    min-width: fit-content;
+
+}
+table
+{
+    border-collapse: collapse;
+    width: 80%;
+    height: fit-content;
+    color: white;
+}
+table tr
+{
+    color: white;
+}
+table thead
+{
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+} 
+#container table tr td
+{
+    width: 60px;
+    border: 1px solid black;
+}
+#menu
+{
+    position: absolute;
+    top: 0%;
+    left: -20%;
+    width: 0%;
+    max-width: 500px;
+    color: teal;
+    overflow-wrap: break-word;
+    padding-top: 20%;
+    height: fit-content;
+    background-color: teal;
+    color: white;
+    font-size: 80%;
+    transition: .5s ease-in-out;
+    box-shadow: 2px 4px 69px rgba(4, 94, 146, 0.295);
+}
+#menu ul li 
+{
+    text-decoration: none;
+    list-style: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: .5s ease-in-out;
+
+}
+#menu ul li label
+{
+    padding-top: -40%;
+}
+#menu ul li:hover
+{
+    padding-left: 10px;
+    background-color: rgb(46, 175, 175);
+    cursor: pointer;
+    transition: .5s ease-in-out;
+
+}
+#menu_button
+{
+    position: fixed;
+    top: 0%;
+    border-radius: 360px;
+    left: 0%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#sl
+{
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    width: 100%;
+    font-size: 60%;
+    transition: .5s ease-in-out;
+}
+#sl:hover
+{
+    background-color: rgb(11, 65, 100);
+    padding-left: 10px;
+    color: rgb(0, 128, 128);
+}
+table tr:nth-child(even)
+{
+    background-color: rgba(10, 109, 109, 0.123);
+}
+#comment
+{
+    position: absolute;
+    padding-bottom: 20px;
+    top: 70%;
+    color: teal;
+    font-size:130% ;
+    left: 35%;
+    transition: .9s ease-in-out;
+}
+#student_adder
+{
+    position: relative;
+    left: 80%;
+    border-radius: 360px;
+}
+#user
+{
+    visibility: hidden;
+    width: 90%;
+    font-size: 70%;
+}
+#described
+{
+    position: absolute;
+    top: 70%;
+    background-color: rgb(7, 19, 19);
+}
+table tr td:nth-child(1)
+{
+    width: 150px;
+}
+i
+{
+    width: auto;
+}
+#reserved
+{
+    position: absolute;
+    padding-bottom: 20px;
+    top: 70%;
+    color: teal;
+    font-size:130% ;
+    left: 35%;
+    transition: .9s ease-in-out;
+}
+#chooser
+{
+    position: absolute;
+    border: 1px solid teal;
+    width: 30%;
+    top: 6%;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    height: 35%;
+    border-radius: 10px;
+}
+#db
+{
+
+    position: absolute;
+    top: 5%;
+    width: 110%;
+    left: 20%;
+}
+img[src='edit.png']
+{
+    position: absolute;
+    left: 8%;
+}
+#configurations
+{
+    position: fixed;
+    width: 90%;
+    top: 0%;
+    height: 14vh;
+    left: 4%;
+    overflow-wrap: break-word;
+    border-radius: 15px;
+    background-color: teal;
+}
+#ender
+{
+    position: relative;
+    top: -12px;
+    left: 30%;
+}
+#crea
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 5%;
+}
+#fail
+{
+    position: absolute;
+    top: 60%;
+    width: 30%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 10px;
+    list-style: none;
+    font-size: 100%;
+    background-color: teal;
+    color: white;
+}
+#fail li
+{
+    top: 0%;
+    height: 3%;
+    padding: 0%;
+    border-radius: 10%;
+    transition: .2s ease-in-out;
+    padding-top: 2px;
+    margin-bottom: -5px;
+}
+#fail li:hover
+{
+    background-color: rgb(14, 97, 97);
+    transition: .2s ease-in-out;
+    padding-left: 1%;
+}
+#the_search:hover
+{
+   cursor: pointer;
+}
+#the_search
+{
+    list-style: none;
+}
+#give_part_for_edit:hover
+{
+   cursor: pointer;
+}
+#give_part_for_edit
+{
+    list-style: none;
+}
+#edit_button
+{
+    background-color: teal;
+    width: 10%;
+    height: 4.5%;
+}
+#edit_list
+{
+    position: absolute;
+    box-shadow: 2px 5px 25px black;
+    width: 220px;
+    height: fit-content;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 10px;
+    list-style: none;
+    font-size: 100%;
+    background-color: teal;
+    color: white;
+}
+#edit_list li:hover
+{
+    background-color: rgb(4, 99, 99);
+}
+#updater
+{
+    position: relative;
+    top: 15%;
+}
+#delete_class_pane
+{
+    position: fixed;
+    top: 2%;
+    left: 95%;
+    transition: .5s ease-in-out;
+}
+#su
+{
+   position: fixed;
+   top: 2%;
+   left: 97%;
+   transition: .5s ease-in-out;
+}
+#report_maker
+{
+    position: fixed;
+    top: 3%;
+    width: fit-content;
+    left: 60%;
+    transition: .5s ease-in-out;
+}
+#suggestions
+{
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+}
+#book
+{
+    position: fixed;
+    top: 3%;
+    left: 86%;
+    width: 6vw;
+}
+#cl
+{
+    position: fixed;
+    width: 30%;
+    max-width: 80px;
+    top: 85%;
+    left: 90%;
+}
+#chooser::placeholder
+{
+    color: white;
+}

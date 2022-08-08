@@ -1,0 +1,106 @@
+body
+{
+    font-size: large;
+    color: teal;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form
+{
+    position: absolute;
+    top: 35%;
+    left: 33%;
+}
+input[type='text']
+{
+    font-size: larger;
+    width: 130%;
+    border: 1px solid blue;
+    outline: none;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+input[type='submit']
+{
+    font-size: larger;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-top: 5px;
+    background-color: teal;
+    padding-bottom: 5px;
+
+}
+#toggle
+{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    background-color: teal;
+    width: 150px;
+    border-radius: 25px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-top: 4px;
+    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+#olevel
+{
+    visibility: hidden;
+}
+#a
+{
+    position: absolute;
+    top: 15%;
+    left: 34%;
+}
+#o
+{
+    position: absolute;
+    top: 15%;
+    left: 53%;
+}
+select
+{
+    position: relative;
+    width: 140%;
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    border: none;
+    border-radius: 10px;
+    background-color: teal;
+}
+h1
+{
+    position: relative;
+    top: 0%;
+    left: 33%;
+}
+#sample
+{
+    position: 35%;
+    height: 100%;
+    top: -70px;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-top: none;
+    box-shadow: 2px 8px 15px black;
+    font-weight: lighter;
+    visibility: hidden;
+}
+#sample ul li:hover
+{
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+#sample ul li
+{
+    height: 10%;
+    list-style: none;
+}

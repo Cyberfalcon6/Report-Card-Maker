@@ -1,0 +1,106 @@
+input[type='text'],input[type='password']
+{
+    padding: 1vw;
+    padding-bottom: 0%;
+    width: 80%;
+    outline: none;
+    height: 9%;
+    background: transparent;
+    border: none;
+    color: rgb(11, 23, 59);
+    border-bottom: 1px solid teal;
+}
+#box
+{
+    position: absolute;
+    width: 95%;
+    padding-top: 160px;
+    max-width: 500px;
+    height: 90%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.884);
+    height: 60%;
+    box-shadow: 2px 2px 5px black;
+    text-align: center;
+
+
+}
+form
+{
+    text-align: center;
+}
+input::placeholder
+{
+    color: #999;
+}
+#tit
+{
+    position: fixed;
+    top: 10%;
+    left: 8vw;
+    width: 34%;
+    height: 10%;
+    padding: 5px;
+    box-shadow: 2px 4px 5px black;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    background-color: teal;
+    
+}
+input[type='submit']
+{
+    position: relative;
+    top: 0%;
+    border-radius: 10px;
+    background-color: teal;
+    color: white;
+    width: 60%;
+    height: 30px;
+    border: none;
+}
+#inner
+{
+    position: relative;
+    color: #999;
+    text-align: left;
+    width: 60%;
+    left: 8%;
+    top: 0vh;
+    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+input:focus ~ #inner
+{
+    color: teal;
+    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+a{
+    text-decoration: none;
+}
+#error
+{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    color: teal;
+}
+#register
+{
+    top: 100%;
+    left: 45%;
+    text-decoration: none;
+    color: teal;
+}
+#or
+{
+    top: 80%;
+    left: 48%;
+    background-color: white;
+}
+hr
+{
+    position: absolute;
+    left: 20%;
+    top: 80%;
+    width: 60%;
+}

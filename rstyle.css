@@ -1,0 +1,142 @@
+*
+{
+    font-family: sans-serif;
+    font-size: 100%;
+}
+#container
+{
+    position: absolute;
+    left: 10%;
+    top: 7%;
+    border-radius: 5px;
+    width: 70%;
+    padding-left: 1%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    height: 92%;
+    background-color: rgba(195, 0, 255, 0.247);
+    margin: 5px;
+    border: 1px solid rgb(195, 0, 255);
+    text-align: center;
+}
+input[type='text'],input[type='date'],input[type='time']
+{
+    width: 70%;
+    padding: 1%;
+    background: transparent;
+    outline: none;
+    border-style: initial;
+    font-size: 100%;
+    border-bottom: 1px solid black;
+    color: rgb(2, 65, 77);
+}
+input[type='submit']
+{
+    background-color: rgb(195, 0, 255);
+    color: white;
+    border-style: hidden;
+    width: 60%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+select
+{
+    border-top: none;
+    width: 17%;
+    background: transparent;
+    border-left: none;
+    border-bottom: 1px rgb(0, 174, 255);
+    outline: none;
+}
+#navigation
+{
+    position: absolute;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    border-style: hidden;
+    width: 60%;
+    padding: 10px;
+    left: 18%;
+    border-radius: 5px;
+}
+#leftpanel
+{
+    position: absolute;
+    left: 1%;
+    /*background-color: rgb(0, 174, 255);*/
+    background: linear-gradient(rgb(5, 98, 141),rgb(19, 148, 207),rgb(53, 171, 226),rgb(0, 174, 255));
+    top: 2%;
+    border-top-left-radius: 5px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    font-size: 100%;
+    color: white;
+    height: 99%;
+    border: 1px solid rgb(0, 174, 255);
+    width: 37%;
+}
+#stud,#teacher
+{
+    border-radius: 360px;
+}
+#student-c
+{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+}
+#stud:hover
+{
+    border-radius: 0px;
+    border: 5px solid black;
+}
+#teacher-c
+{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+}
+label
+{
+    position: absolute;
+    top: 50%;
+}
+#teacher:hover,#student-c ~ label
+{
+  top: 55%;
+  color: black;
+}
+legend
+{
+    border: 1px solid rgb(2, 170, 182);
+    width: 70%;
+}
+#studentside
+{
+    position: absolute;
+    top: -7.5%;
+    left: 0%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 40%;
+    padding: 0.2%;
+    color: white;
+    background-color: rgb(195, 0, 255);
+}
+#teacherside
+{
+    position: absolute;
+    top: -7.5%;
+    padding: 0.2%;
+    /*background-color: rgb(2, 170, 182);*/
+    border-top-left-radius: 20px;
+    width: 40%;
+    border-top-right-radius: 20px;
+    left: 36%;
+    /*border: 1px solid rgb(2, 170, 182);*/
+}
+#studentside:hover,#teacherside:hover
+{
+    cursor: pointer;
+}
